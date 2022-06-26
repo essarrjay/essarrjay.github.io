@@ -1,8 +1,17 @@
 html,body,button {font-size: 10pt; font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace;}
 h1,h2,h3,h4,h5,h6 {font-family: Consolas,"Helvetica", "sans-serif"; color:#c95;}
 
+h3 {margin-left: 2ex;}
+h4 {margin: 3ex 0ex 1ex 6ex;}
+
 a {text-decoration: none; color:#c95; font-weight: bold;}
 a:hover {text-decoration: underline;}
+
+hr {
+  margin: 20px 0px 20px;
+  border: 2px solid #c95;
+  border-radius: 2px;
+}
 
 body {
   margin: 0px;
@@ -23,6 +32,11 @@ nav {
   top: 0px;
   background-image: url("images/carabiner-header-image.png");
   width: 580px;
+}
+
+#page-nav {
+  margin: 10px 0px 0px;
+  text-align: center;
 }
 
 #titleimg {
@@ -54,11 +68,11 @@ nav {
   height: 200px;
 }
 
-h3.criteria {
+h3.criterion {
   margin: 4ex 2ex 0ex;
 }
 
-p.about-page, ul.timeline {
+p.about-page, ul.timeline, div.thought p {
   margin:1ex 2ex 1ex 6ex;
 }
 
@@ -161,6 +175,28 @@ button {
   width: 400px
 }
 
+div.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.img-box {
+  display: flex;
+  padding: 1ex 2ex 2ex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+img.other-thoughts {
+  max-width: 400px;
+}
+
+.box-border {
+  border:2px solid #c95;
+}
 
 
 
